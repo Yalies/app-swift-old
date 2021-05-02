@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		433D1809261675D500DC2862 /* samplepeople.txt in Resources */ = {isa = PBXBuildFile; fileRef = 433D1808261675D500DC2862 /* samplepeople.txt */; };
+		434CD000261282AC00750272 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434CCFFF261282AC00750272 /* Person.swift */; };
+		434CD0032612831600750272 /* PersonTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434CD0022612831600750272 /* PersonTile.swift */; };
 		4393769226112EF9005FD834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393769126112EF9005FD834 /* AppDelegate.swift */; };
 		4393769426112EF9005FD834 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393769326112EF9005FD834 /* SceneDelegate.swift */; };
 		4393769626112EF9005FD834 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393769526112EF9005FD834 /* ContentView.swift */; };
 		4393769826112EFA005FD834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4393769726112EFA005FD834 /* Assets.xcassets */; };
 		4393769B26112EFA005FD834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4393769A26112EFA005FD834 /* Preview Assets.xcassets */; };
 		4393769E26112EFA005FD834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4393769C26112EFA005FD834 /* LaunchScreen.storyboard */; };
+		43C5899C262CD7B20010798E /* samplefilters in Resources */ = {isa = PBXBuildFile; fileRef = 43C5899B262CD7B20010798E /* samplefilters */; };
+		43F477AD26236A7400450D22 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F477AC26236A7400450D22 /* ImageView.swift */; };
+		43F477B02623755900450D22 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F477AF2623755900450D22 /* SearchBar.swift */; };
+		43F477B7262376A400450D22 /* PeopleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F477B6262376A400450D22 /* PeopleLoader.swift */; };
+		C71D2AC8FD889D9A37009506 /* libPods-Yalies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9492907EB3A8D8AC5D6336C4 /* libPods-Yalies.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AED4A0850CACE2857864BAA /* Pods-Yalies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yalies.release.xcconfig"; path = "Target Support Files/Pods-Yalies/Pods-Yalies.release.xcconfig"; sourceTree = "<group>"; };
+		433D1808261675D500DC2862 /* samplepeople.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = samplepeople.txt; sourceTree = "<group>"; };
+		434CCFFF261282AC00750272 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		434CD0022612831600750272 /* PersonTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTile.swift; sourceTree = "<group>"; };
 		4393768E26112EF9005FD834 /* Yalies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yalies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4393769126112EF9005FD834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4393769326112EF9005FD834 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,12 @@
 		4393769A26112EFA005FD834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4393769D26112EFA005FD834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4393769F26112EFA005FD834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C5899B262CD7B20010798E /* samplefilters */ = {isa = PBXFileReference; lastKnownFileType = text; path = samplefilters; sourceTree = "<group>"; };
+		43F477AC26236A7400450D22 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		43F477AF2623755900450D22 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		43F477B6262376A400450D22 /* PeopleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleLoader.swift; sourceTree = "<group>"; };
+		9492907EB3A8D8AC5D6336C4 /* libPods-Yalies.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yalies.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA1AC39FE3F37F01952E8B3 /* Pods-Yalies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yalies.debug.xcconfig"; path = "Target Support Files/Pods-Yalies/Pods-Yalies.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71D2AC8FD889D9A37009506 /* libPods-Yalies.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		194A03AB40565123AF0B784E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9492907EB3A8D8AC5D6336C4 /* libPods-Yalies.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4393768526112EF9005FD834 = {
 			isa = PBXGroup;
 			children = (
 				4393769026112EF9005FD834 /* Yalies */,
 				4393768F26112EF9005FD834 /* Products */,
+				FE826D9E28E9E0462BD53EDE /* Pods */,
+				194A03AB40565123AF0B784E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +88,12 @@
 				4393769126112EF9005FD834 /* AppDelegate.swift */,
 				4393769326112EF9005FD834 /* SceneDelegate.swift */,
 				4393769526112EF9005FD834 /* ContentView.swift */,
+				434CD0022612831600750272 /* PersonTile.swift */,
+				434CCFFF261282AC00750272 /* Person.swift */,
+				43F477B6262376A400450D22 /* PeopleLoader.swift */,
+				43F477B22623767500450D22 /* Custom Components */,
+				433D1808261675D500DC2862 /* samplepeople.txt */,
+				43C5899B262CD7B20010798E /* samplefilters */,
 				4393769726112EFA005FD834 /* Assets.xcassets */,
 				4393769C26112EFA005FD834 /* LaunchScreen.storyboard */,
 				4393769F26112EFA005FD834 /* Info.plist */,
@@ -75,6 +110,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		43F477B22623767500450D22 /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				43F477AC26236A7400450D22 /* ImageView.swift */,
+				43F477AF2623755900450D22 /* SearchBar.swift */,
+			);
+			path = "Custom Components";
+			sourceTree = "<group>";
+		};
+		FE826D9E28E9E0462BD53EDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEA1AC39FE3F37F01952E8B3 /* Pods-Yalies.debug.xcconfig */,
+				1AED4A0850CACE2857864BAA /* Pods-Yalies.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,6 +135,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 439376A226112EFA005FD834 /* Build configuration list for PBXNativeTarget "Yalies" */;
 			buildPhases = (
+				C1FEC4FBACF83912B73BE23A /* [CP] Check Pods Manifest.lock */,
 				4393768A26112EF9005FD834 /* Sources */,
 				4393768B26112EF9005FD834 /* Frameworks */,
 				4393768C26112EF9005FD834 /* Resources */,
@@ -133,6 +187,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4393769E26112EFA005FD834 /* LaunchScreen.storyboard in Resources */,
+				433D1809261675D500DC2862 /* samplepeople.txt in Resources */,
+				43C5899C262CD7B20010798E /* samplefilters in Resources */,
 				4393769B26112EFA005FD834 /* Preview Assets.xcassets in Resources */,
 				4393769826112EFA005FD834 /* Assets.xcassets in Resources */,
 			);
@@ -140,14 +196,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C1FEC4FBACF83912B73BE23A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yalies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4393768A26112EF9005FD834 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4393769226112EF9005FD834 /* AppDelegate.swift in Sources */,
+				43F477B7262376A400450D22 /* PeopleLoader.swift in Sources */,
 				4393769426112EF9005FD834 /* SceneDelegate.swift in Sources */,
+				434CD0032612831600750272 /* PersonTile.swift in Sources */,
+				434CD000261282AC00750272 /* Person.swift in Sources */,
 				4393769626112EF9005FD834 /* ContentView.swift in Sources */,
+				43F477B02623755900450D22 /* SearchBar.swift in Sources */,
+				43F477AD26236A7400450D22 /* ImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +369,7 @@
 		};
 		439376A326112EFA005FD834 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA1AC39FE3F37F01952E8B3 /* Pods-Yalies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +391,7 @@
 		};
 		439376A426112EFA005FD834 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AED4A0850CACE2857864BAA /* Pods-Yalies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -8,14 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var peopleLoader = PeopleLoader()
+    
+    let columns = [
+        GridItem(.adaptive(minimum: 100))
+    ]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        VStack {
+            ScrollView {
+                SearchBar { searchText in
+                    peopleLoader.loadPeople(keyword: searchText)
+                }
+                .padding()
+                
+                if peopleLoader.isLoading {
+                    ProgressView("Loading...")
+                        .padding()
+                } else {
+                    LazyVGrid(columns: columns, spacing: 20) {
+                        ForEach(peopleLoader.people, id: \.self) { person in
+                            PersonTile(person: person)
+                        }
+                    }
+                    .padding(.horizontal)
+                }
+            }
+            .resignKeyboardOnDragGesture()
+        }
     }
 }
